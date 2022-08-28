@@ -33,7 +33,7 @@ function App() {
           cacheOptions
           defaultOptions
           value={selectedValue}
-          getOptionLabel={e=> e.email}
+          getOptionLabel={e=> e.name}
           getOptionValue={e=> e.id}
           loadOptions={fetchData}
           onInputChange={handleInputChange}
